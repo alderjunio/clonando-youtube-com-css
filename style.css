@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #c1c1c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.container{
+    border: 1px solid red;
+    width: 1440px;
+    height: 1024px;
+}
+
+.menu{
+    border: 1px solid blue;
+    height: 56px;
+}
+
+main{
+display: flex;
+   height: 80%;
+}
+
+.left{
+    /*background-color: aqua;*/
+    width: 75%;
+    
+}
+
+.right{
+    /*background-color: blueviolet;*/
+    width: 25%;   
+}
