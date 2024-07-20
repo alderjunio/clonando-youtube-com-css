@@ -5,7 +5,6 @@
 }
 
 body{
-    background-color: #c1c1c1;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,6 +41,30 @@ body{
     width: 90px;
     height: 20px;
     margin-left: 20px;
+}
+
+.menu-center{
+    border: 1px solid #cccccc;   
+    display: flex; 
+    width: 410px;
+    height: 40px;
+}
+
+.search {
+    border: 1px solid #cccccc;
+    width: 360px;
+}
+
+.retangulo{
+    border: 1px solid #cccccc;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#lupa{
+    width: 20px;   
 }
 
 
