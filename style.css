@@ -14,13 +14,13 @@ body{
 }
 
 .container{
-    /*border: 1px solid red;*/
+    
     width: 1440px;
     height: 1024px;
 }
 
 .menu{
-    /*border: 1px solid blue;*/
+    
     height: 56px;
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@ body{
 }
 
 .menu-left{
-    /*border: 1px solid green;*/
+    
     width: 246px;
     height: 24px;
 }
@@ -46,19 +46,19 @@ body{
 }
 
 .menu-center{
-   /* border: 1px solid #cccccc;   */
+   
     display: flex; 
     width: 410px;
     height: 40px;
 }
 
 .search {
-    border: 1px solid #cccccc;
+    
     width: 360px;
 }
 
 .retangulo{
-    border: 1px solid #cccccc;
+    
     width: 50px;
     display: flex;
     justify-content: center;
@@ -70,13 +70,18 @@ body{
 }
 
 .menu-right{
-    /*border: 1px solid red;*/   
+    
     display: flex; 
     justify-content: space-between;
     align-items: center;
     width: 130px;
     height: 40px;
     margin-right: 20px;
+}
+
+#avatar{
+    width: 34px;
+    border-radius: 50%;
 }
 
 #camera{
@@ -95,11 +100,10 @@ main{
 }
 
 .left{
-    /*border: 1px solid pink;*/
-    width: 75%;
+    
+    width: 952px;
     margin-left: 60px;
-    margin-top: 84px; 
-    gap: 16px;
+    margin-top: 84px;     
 }
 
 .left h2{
@@ -143,5 +147,52 @@ main{
 
 .right{
     /*background-color: blueviolet;*/
-    width: 25%;   
+    width: 20%; 
+    margin-top: 84px;
+    margin-left: 16px;
+}
+
+.thumb img{
+    width: 160px;
+    height: 90px;
+}
+
+.videos{
+    margin-bottom: 16px; 
+    /*border: 1px solid red;*/
+    display: flex;
+    margin-left: 5px;
+    width: 400px;
+    height: 90px;
+}
+
+.infos{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.infos p{
+    width: 196px;
+    height: 32px;
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.infos h5{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #515151;
+}
+
+.infos h6{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #515151;
 }
