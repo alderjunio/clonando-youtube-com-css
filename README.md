@@ -1,7 +1,7 @@
-# Desafio 01: Criando sua primeira Landing Page com HTML e CSS
+# Desafio: Clonando a Página do Youtube com CSS
 
 
-## Participei do primeiro desafio da Trilha de CSS da <img src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg" width="50"/>. 
+## Formação CSS Web devepoler da <img src="https://hermes.digitalinnovation.one/assets/diome/logo-full.svg" width="50"/>. 
 
 
 
