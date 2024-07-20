@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -12,13 +14,13 @@ body{
 }
 
 .container{
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     width: 1440px;
     height: 1024px;
 }
 
 .menu{
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     height: 56px;
     display: flex;
     align-items: center;
@@ -34,7 +36,7 @@ body{
 #menu{
     width: 24px;
     height: 24px;
-    margin-left: 30px;
+    margin-left: 20px;
 }
 
 #youtube{
@@ -74,7 +76,7 @@ body{
     align-items: center;
     width: 130px;
     height: 40px;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #camera{
@@ -87,14 +89,56 @@ body{
 
 
 main{
-display: flex;
-   height: 80%;
+    background-color: #f9f9f9;
+    display: flex;
+    height: 100%;
 }
 
 .left{
-    /*background-color: aqua;*/
+    /*border: 1px solid pink;*/
     width: 75%;
-    
+    margin-left: 60px;
+    margin-top: 84px; 
+    gap: 16px;
+}
+
+.left h2{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Roboto;
+    margin-top: 8px;
+}
+
+#image{
+    width: 952px;
+    height: 537px;
+}
+
+.video-actions{
+    width: 902px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.left h3{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Roboto;
+    margin-top: 15px;
+}
+
+.left h4{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 14px;
+    color: #515151;
+    width: 510px;
+    height: 64px;
+    text-align: justify;
+    margin-top: 10px;
 }
 
 .right{
